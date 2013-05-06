@@ -41,6 +41,9 @@ grails.project.dependency.resolution = {
     dependencies {
         compile "org.neo4j:neo4j-rest-graphdb:1.8.1"
         test(group: "org.neo4j", name: "neo4j-kernel", version: "1.8.1", classifier: "tests")
+        test(group: "org.neo4j.app", name: "neo4j-server", version: "1.8.1", classifier: "tests")
+        test(group: "org.neo4j.app", name: "neo4j-server", version: "1.8.1")
+
     }
 
     plugins {

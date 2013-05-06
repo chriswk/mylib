@@ -11,7 +11,9 @@ import org.junit.*
 @TestFor(Genre)
 class GenreTests {
 
-    void testSomething() {
-       fail "Implement me"
+    void saveAndFetch() {
+       def original = new Genre(name: "Horror").save(failOnError: true)
+       def found = Genre.findByName("Horror")
+       found == original
     }
 }
