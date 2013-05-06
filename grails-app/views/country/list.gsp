@@ -33,7 +33,7 @@
 				<tbody>
 				<g:each in="${countryInstanceList}" status="i" var="countryInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
-					
+					    <td class="flag ${countryInstance.iso.toLowerCase()}"></td>
 						<td><g:link action="show" id="${countryInstance.id}">${fieldValue(bean: countryInstance, field: "iso")}</g:link></td>
 					
 						<td>${fieldValue(bean: countryInstance, field: "name")}</td>
