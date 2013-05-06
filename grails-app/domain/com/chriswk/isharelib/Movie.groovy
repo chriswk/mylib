@@ -9,10 +9,11 @@ class Movie {
     Date releaseDate
 
     static hasMany = [
-        countries: Country,
-        crew: Job,
-        languages: Language,
-        cast: MovieRole
+            cast: MovieRole,
+            countries: Country,
+            crew: Job,
+            genres: Genre,
+            languages: Language
     ]
     static constraints = {
         title blank: false
