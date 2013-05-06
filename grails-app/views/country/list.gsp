@@ -20,10 +20,10 @@
 			<g:if test="${flash.message}">
 			<div class="message" role="status">${flash.message}</div>
 			</g:if>
-			<table>
+			<table class="table">
 				<thead>
 					<tr>
-					
+					    <th>Flag</th>
 						<g:sortableColumn property="iso" title="${message(code: 'country.iso.label', default: 'Iso')}" />
 					
 						<g:sortableColumn property="name" title="${message(code: 'country.name.label', default: 'Name')}" />

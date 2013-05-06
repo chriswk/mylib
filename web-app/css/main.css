@@ -2,3 +2,7 @@ body {
     margin-bottom: 20px;
     margin-top: 55px;
 }
+
+.table th, .table td {
+    padding: 0px;
+}

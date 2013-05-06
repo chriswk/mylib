@@ -5,10 +5,11 @@ class Movie {
     String tagline
     String summary
     String description
-    long tmdbId
+    String tmdbId
     Date releaseDate
     Date dateCreated
     Date lastUpdated
+
     static hasMany = [
             cast: MovieRole,
             countries: Country,
@@ -19,5 +20,6 @@ class Movie {
     static constraints = {
         title blank: false
         releaseDate max: new Date()
+        genres required: false
     }
 }

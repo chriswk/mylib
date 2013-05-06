@@ -2,7 +2,7 @@ package com.chriswk.isharelib
 
 class Company {
     String name
-    long tmdbId
+    String tmdbId
     Date dateCreated
     Date lastUpdated
     static hasMany = [

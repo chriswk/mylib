@@ -1,12 +1,22 @@
 package com.chriswk.isharelib
 
 class Country {
-    String iso
+    String shortKey
+    String iso3166Number
+    String capital
     String name
+    String domain
     Date dateCreated
     Date lastUpdated
     static constraints = {
-        iso unique: true
-        name blank: false
+        shortKey maxSize: 2, unique: true
+        iso3166Number maxSize:3, unique: true
+        domain maxSize:5, nullable: true
+        capital maxSize: 50, nullable: true
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }

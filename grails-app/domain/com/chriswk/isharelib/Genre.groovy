@@ -2,11 +2,17 @@ package com.chriswk.isharelib
 
 class Genre {
     String name
-    long tmdbId
+    String tmdbId
     Date dateCreated
     Date lastUpdated
+
     static constraints = {
-        name blank: false
+        name blank: false, unique: true
         tmdbId unique: true
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }
