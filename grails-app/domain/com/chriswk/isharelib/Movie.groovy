@@ -7,7 +7,8 @@ class Movie {
     String description
     long tmdbId
     Date releaseDate
-
+    Date dateCreated
+    Date lastUpdated
     static hasMany = [
             cast: MovieRole,
             countries: Country,

@@ -5,6 +5,8 @@ class Job {
     Person person
     String department
     String job
+    Date dateCreated
+    Date lastUpdated
     static constraints = {
     }
 }

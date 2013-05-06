@@ -10,6 +10,8 @@ class Person {
     long tmdbId
     String imdbId
     String imageUrl
+    Date dateCreated
+    Date lastUpdated
     static hasMany = [
         jobs: Job, roles: MovieRole, languages: Language
     ]
