@@ -20,3 +20,5 @@ stacktrace.log
 .idea
 .classpath
 .project
+c.tld
+fmt.tld
