@@ -4,7 +4,6 @@ class Person {
     String name
     String birthPlace
     String biography
-    Date birthday
     Country born
 
     String tmdbId
@@ -18,7 +17,6 @@ class Person {
     ]
     static constraints = {
         name blank:false
-        birthday max: new Date(), blank: true, nullable: true
         biography blank: true, nullable: true
         birthPlace blank: true, nullable: true
         born blank: true, nullable: true

@@ -40,16 +40,7 @@
 					
 				</li>
 				</g:if>
-			
-				<g:if test="${personInstance?.birthday}">
-				<li class="fieldcontain">
-					<span id="birthday-label" class="property-label"><g:message code="person.birthday.label" default="Birthday" /></span>
-					
-						<span class="property-value" aria-labelledby="birthday-label"><g:formatDate date="${personInstance?.birthday}" /></span>
-					
-				</li>
-				</g:if>
-			
+
 				<g:if test="${personInstance?.born}">
 				<li class="fieldcontain">
 					<span id="born-label" class="property-label"><g:message code="person.born.label" default="Born" /></span>

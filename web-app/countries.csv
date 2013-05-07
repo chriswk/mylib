@@ -7,7 +7,6 @@ EU      AD      AND     20      Andorra
 AF      AO      AGO     24      Angola
 NA      AG      ATG     28      Antigua and Barbuda
 EU      AZ      AZE     31      Azerbaijan
-AS      AZ      AZE     31      Azerbaijan
 SA      AR      ARG     32      Argentina
 OC      AU      AUS     36      Australia
 EU      AT      AUT     40      Austria
@@ -15,7 +14,6 @@ NA      BS      BHS     44      Bahamas
 AS      BH      BHR     48      Bahrain
 AS      BD      BGD     50      Bangladesh
 EU      AM      ARM     51      Armenia
-AS      AM      ARM     51      Armenia
 NA      BB      BRB     52      Barbados
 EU      BE      BEL     56      Belgium
 NA      BM      BMU     60      Bermuda
@@ -57,7 +55,6 @@ NA      CR      CRI     188     Costa Rica
 EU      HR      HRV     191     Croatia
 NA      CU      CUB     192     Cuba
 EU      CY      CYP     196     Cyprus
-AS      CY      CYP     196     Cyprus
 EU      CZ      CZE     203     Czech Republic
 AF      BJ      BEN     204     Benin
 EU      DK      DNK     208     Denmark
@@ -82,7 +79,6 @@ AN      TF      ATF     260     French Southern Territories
 AF      DJ      DJI     262     Djibouti
 AF      GA      GAB     266     Gabon
 EU      GE      GEO     268     Georgia
-AS      GE      GEO     268     Georgia
 AF      GM      GMB     270     Gambia
 AS      PS      PSE     275     Palestinian Territory
 EU      DE      DEU     276     Germany
@@ -115,11 +111,10 @@ AF      CI      CIV     384     Cote d'Ivoire
 NA      JM      JAM     388     Jamaica
 AS      JP      JPN     392     Japan
 EU      KZ      KAZ     398     Kazakhstan
-AS      KZ      KAZ     398     Kazakhstan
 AS      JO      JOR     400     Jordan
 AF      KE      KEN     404     Kenya
-AS      KP      PRK     408     Korea
-AS      KR      KOR     410     Korea
+AS      KP      PRK     408     People's republic of Korea
+AS      KR      KOR     410     South Korea
 AS      KW      KWT     414     Kuwait
 AS      KG      KGZ     417     Kyrgyz Republic
 AS      LA      LAO     418     Lao People's Democratic Republic
@@ -170,7 +165,6 @@ OC      NF      NFK     574     Norfolk Island
 EU      NO      NOR     578     Norway
 OC      MP      MNP     580     Northern Mariana Islands
 OC      UM      UMI     581     United States Minor Outlying Islands
-NA      UM      UMI     581     United States Minor Outlying Islands
 OC      FM      FSM     583     Micronesia
 OC      MH      MHL     584     Marshall Islands
 OC      PW      PLW     585     Palau
@@ -190,7 +184,6 @@ AS      QA      QAT     634     Qatar
 AF      RE      REU     638     Reunion
 EU      RO      ROU     642     Romania
 EU      RU      RUS     643     Russian Federation
-AS      RU      RUS     643     Russian Federation
 AF      RW      RWA     646     Rwanda
 NA      BL      BLM     652     Saint Barthelemy
 AF      SH      SHN     654     Saint Helena
@@ -233,7 +226,6 @@ NA      TT      TTO     780     Trinidad and Tobago
 AS      AE      ARE     784     United Arab Emirates
 AF      TN      TUN     788     Tunisia
 EU      TR      TUR     792     Turkey
-AS      TR      TUR     792     Turkey
 AS      TM      TKM     795     Turkmenistan
 NA      TC      TCA     796     Turks and Caicos Islands
 OC      TV      TUV     798     Tuvalu

@@ -28,8 +28,6 @@
 					
 						<g:sortableColumn property="birthPlace" title="${message(code: 'person.birthPlace.label', default: 'Birth Place')}" />
 					
-						<g:sortableColumn property="birthday" title="${message(code: 'person.birthday.label', default: 'Birthday')}" />
-					
 						<th><g:message code="person.born.label" default="Born" /></th>
 					
 						<g:sortableColumn property="imageUrl" title="${message(code: 'person.imageUrl.label', default: 'Image Url')}" />
@@ -45,8 +43,6 @@
 						<td><g:link action="show" id="${personInstance.id}">${fieldValue(bean: personInstance, field: "biography")}</g:link></td>
 					
 						<td>${fieldValue(bean: personInstance, field: "birthPlace")}</td>
-					
-						<td><g:formatDate date="${personInstance.birthday}" /></td>
 					
 						<td>${fieldValue(bean: personInstance, field: "born")}</td>
 					
